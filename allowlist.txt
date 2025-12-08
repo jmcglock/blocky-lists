@@ -44,6 +44,7 @@
 *.omtrdc.net
 *.pinimg.com
 *.rancher.io
+*.rocketaccount.com
 *.s.youtube.com
 *.scdn.co
 *.simplelogin.io
