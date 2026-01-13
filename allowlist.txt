@@ -17,6 +17,7 @@
 *.amp-api-search-edge.apps.apple.com
 *.apple.com
 *.braze.com
+*.claude.ai
 *.cloudflare.com
 *.dcf.espn.com
 *.demdex.net
