@@ -35,6 +35,7 @@
 *.graph.instagram.com
 *.hulu.hb-api.omtrdc.net
 *.i.instagram.com
+*.ipify.org
 *.intuit.com
 *.megaphone.fm
 *.microsoft.com
