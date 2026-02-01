@@ -91,3 +91,13 @@
 *.video-ads-module.ad-tech.nbcuni.com
 *.wd.adcolony.com
 *.weather-analytics-events.apple.com
+*.app.appsflyer.com
+*.attribution.report
+*.measure.fotmob.com
+*.ads.fotmob.com
+*.events.appsflyer.com
+*.launches.appsflyer.com
+*.t.appsflyer.com
+*.cdn.branch.io
+*.api2.branch.io
+*.app.link
