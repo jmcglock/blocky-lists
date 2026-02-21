@@ -1,28 +1,26 @@
-#     ██████╗ ██╗      ██████╗  ██████╗██╗  ██╗██╗     ██╗███████╗████████╗
-#     ██╔══██╗██║     ██╔═══██╗██╔════╝██║ ██╔╝██║     ██║██╔════╝╚══██╔══╝
-#     ██████╔╝██║     ██║   ██║██║     █████╔╝ ██║     ██║███████╗   ██║
-#     ██╔══██╗██║     ██║   ██║██║     ██╔═██╗ ██║     ██║╚════██║   ██║
-#     ██████╔╝███████╗╚██████╔╝╚██████╗██║  ██╗███████╗██║███████║   ██║
-#     ╚═════╝ ╚══════╝ ╚═════╝  ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝╚══════╝   ╚═╝
+#  ╭───────────────────────────────────────────────────────────────╮
+#  │                    B L O C K L I S T                          │
+#  ╰───────────────────────────────────────────────────────────────╯
 #
 # DNS Blocklist for Blocky/NextDNS
 # Blocks advertising, analytics, and tracking domains
 #
 # Format: Wildcard notation (*.domain.tld) blocks domain and all subdomains
-# Last Updated: 2025-12-03
-
-*.ad.doubleclick.net
-*.adc3-launch.adcolony.com
+# Last Updated: 2025-02-21
 *.adcolony.com
-*.adm.hotjar.com
+*.addthis.com
+*.adform.net
+*.adnxs.com
+*.adroll.com
 *.ads-api.tiktok.com
 *.ads-api.twitter.com
 *.ads-sg.tiktok.com
+*.ads.fotmob.com
 *.ads.linkedin.com
 *.ads.tiktok.com
-*.ads30.adcolony.com
-*.adservice.google.com
 *.adservetx.media.net
+*.adservice.google.com
+*.adsrvr.org
 *.adtago.s3.amazonaws.com
 *.advertising-api-eu.amazon.com
 *.advertising.apple.com
@@ -38,66 +36,64 @@
 *.api-adservices.apple.com
 *.api.ad.xiaomi.com
 *.api.bugsnag.com
-*.api.mouseflow.com
+*.api2.branch.io
 *.app-measurement.com
+*.app.appsflyer.com
 *.app.bugsnag.com
 *.app.getsentry.com
 *.assets.adobedtm.com
+*.attribution.report
 *.books-analytics-events.apple.com
 *.browser.sentry-cdn.com
 *.business-api.tiktok.com
-*.cdn.mouseflow.com
-*.click.googleanalytics.com
-*.data.mistat.india.xiaomi.com
-*.data.mistat.rus.xiaomi.com
+*.cdn.branch.io
+*.chartbeat.com
+*.clarity.ms
+*.comscore.com
+*.connect.facebook.net
+*.crazyegg.com
+*.criteo.com
 *.data.mistat.xiaomi.com
 *.doubleclick.net
+*.events.appsflyer.com
 *.events.hotjar.io
-*.events3alt.adcolony.com
+*.fullstory.com
 *.globalapi.ad.xiaomi.com
 *.google-analytics.com
-*.gtm.mouseflow.com
 *.hotjar.com
 *.iadsdk.apple.com
-*.identify.hotjar.com
-*.insights.hotjar.com
+*.launches.appsflyer.com
+*.lgads.com
+*.luckyorange.com
+*.measure.fotmob.com
 *.media.net
 *.mediatailor.us-east-1.amazonaws.com
-*.mediavisor.doubleclick.net
 *.metrics.apple.com
 *.metrics.icloud.com
+*.mgid.com
 *.mouseflow.com
 *.nmetrics.samsung.com
 *.notes-analytics-events.apple.com
 *.notify.bugsnag.com
+*.outbrain.com
 *.pagead2.googleadservices.com
 *.pagead2.googlesyndication.com
 *.pixel.facebook.com
+*.pubmatic.com
+*.quantserve.com
+*.rubiconproject.com
 *.samsung-com.112.2o7.net
 *.samsungads.com
-*.script.hotjar.com
+*.scorecardresearch.com
 *.sdkconfig.ad.xiaomi.com
 *.sessions.bugsnag.com
+*.sharethis.com
 *.smetrics.samsung.com
-*.ssl.google-analytics.com
 *.static.ads-twitter.com
-*.static.doubleclick.net
 *.static.media.net
-*.stats.g.doubleclick.net
-*.surveys.hotjar.com
-*.tools.mouseflow.com
+*.t.appsflyer.com
+*.taboola.com
 *.tr.iadsdk.apple.com
 *.userdata.sr.roku.com
 *.video-ads-module.ad-tech.nbcuni.com
-*.wd.adcolony.com
 *.weather-analytics-events.apple.com
-*.app.appsflyer.com
-*.attribution.report
-*.measure.fotmob.com
-*.ads.fotmob.com
-*.events.appsflyer.com
-*.launches.appsflyer.com
-*.t.appsflyer.com
-*.cdn.branch.io
-*.api2.branch.io
-*.app.link

@@ -1,21 +1,17 @@
-#      █████╗ ██╗     ██╗      ██████╗ ██╗    ██╗██╗     ██╗███████╗████████╗
-#     ██╔══██╗██║     ██║     ██╔═══██╗██║    ██║██║     ██║██╔════╝╚══██╔══╝
-#     ███████║██║     ██║     ██║   ██║██║ █╗ ██║██║     ██║███████╗   ██║
-#     ██╔══██║██║     ██║     ██║   ██║██║███╗██║██║     ██║╚════██║   ██║
-#     ██║  ██║███████╗███████╗╚██████╔╝╚███╔███╔╝███████╗██║███████║   ██║
-#     ╚═╝  ╚═╝╚══════╝╚══════╝ ╚═════╝  ╚══╝╚══╝ ╚══════╝╚═╝╚══════╝   ╚═╝
+#  ╭───────────────────────────────────────────────────────────────╮
+#  │                    A L L O W L I S T                          │
+#  ╰───────────────────────────────────────────────────────────────╯
 #
 # DNS Allowlist for Blocky/NextDNS
 # Permits specified domains and all subdomains to bypass blocking rules
 #
 # Format: Wildcard notation (*.domain.tld) allows domain and all subdomains
-# Last Updated: 2025-12-03
-
-*.akamai.net
-*.anthropic.com
+# Last Updated: 2025-02-21  
 *.ads-fa-darwin.hulustream.com
+*.akamai.net
 *.amp-api-edge.apps.apple.com
 *.amp-api-search-edge.apps.apple.com
+*.anthropic.com
 *.apple.com
 *.braze.com
 *.claude.ai
@@ -37,14 +33,16 @@
 *.graph.instagram.com
 *.hulu.hb-api.omtrdc.net
 *.i.instagram.com
-*.ipify.org
 *.intuit.com
+*.ipify.org
 *.megaphone.fm
 *.microsoft.com
 *.nbcsports.com
 *.nerdfonts.com
 *.nextdns.io
 *.omtrdc.net
+*.oracle.com
+*.oraclecloud.com
 *.pinimg.com
 *.rancher.io
 *.rocketaccount.com
