@@ -6,8 +6,7 @@
 # Permits specified domains and all subdomains to bypass blocking rules
 #
 # Format: Wildcard notation (*.domain.tld) allows domain and all subdomains
-# Last Updated: 2025-02-21  
-*.ads-fa-darwin.hulustream.com
+# Last Updated: 2026-03-07
 *.akamai.net
 *.amp-api-edge.apps.apple.com
 *.amp-api-search-edge.apps.apple.com
@@ -17,7 +16,6 @@
 *.claude.ai
 *.cloudflare.com
 *.dcf.espn.com
-*.demdex.net
 *.discordapp.com
 *.espn.com
 *.espncdn.com
@@ -31,7 +29,6 @@
 *.googleapis.com
 *.graph.facebook.com
 *.graph.instagram.com
-*.hulu.hb-api.omtrdc.net
 *.i.instagram.com
 *.intuit.com
 *.ipify.org
@@ -40,7 +37,6 @@
 *.nbcsports.com
 *.nerdfonts.com
 *.nextdns.io
-*.omtrdc.net
 *.oracle.com
 *.oraclecloud.com
 *.pinimg.com
@@ -59,7 +55,6 @@
 *.typekit.net
 *.ubuntu.com
 *.ui.com
-*.urbanairship.com
 *.visualstudio.com
 *.windows.com
 *.windowsupdate.com

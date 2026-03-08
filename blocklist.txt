@@ -6,7 +6,7 @@
 # Blocks advertising, analytics, and tracking domains
 #
 # Format: Wildcard notation (*.domain.tld) blocks domain and all subdomains
-# Last Updated: 2025-02-21
+# Last Updated: 2026-03-07
 *.adcolony.com
 *.addthis.com
 *.adform.net
@@ -93,7 +93,12 @@
 *.static.media.net
 *.t.appsflyer.com
 *.taboola.com
+*.events.reddit.com
+*.pixel.linkedin.com
+*.telemetry.microsoft.com
 *.tr.iadsdk.apple.com
+*.tr.snapchat.com
 *.userdata.sr.roku.com
 *.video-ads-module.ad-tech.nbcuni.com
+*.vortex.data.microsoft.com
 *.weather-analytics-events.apple.com
