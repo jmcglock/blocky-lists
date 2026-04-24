@@ -6,7 +6,7 @@
 # Blocks advertising, analytics, and tracking domains
 #
 # Format: Wildcard notation (*.domain.tld) blocks domain and all subdomains
-# Last Updated: 2026-03-07
+# Last Updated: 2026-04-24
 *.adcolony.com
 *.addthis.com
 *.adform.net
@@ -15,6 +15,7 @@
 *.ads-api.tiktok.com
 *.ads-api.twitter.com
 *.ads-sg.tiktok.com
+*.ads.adthrive.com
 *.ads.fotmob.com
 *.ads.linkedin.com
 *.ads.tiktok.com
@@ -47,6 +48,7 @@
 *.browser.sentry-cdn.com
 *.business-api.tiktok.com
 *.cdn.branch.io
+*.cdn.webpushr.com
 *.chartbeat.com
 *.clarity.ms
 *.comscore.com
@@ -55,12 +57,14 @@
 *.criteo.com
 *.data.mistat.xiaomi.com
 *.doubleclick.net
+*.error-report.com
 *.events.appsflyer.com
 *.events.hotjar.io
 *.fullstory.com
 *.globalapi.ad.xiaomi.com
 *.google-analytics.com
 *.hotjar.com
+*.html-load.com
 *.iadsdk.apple.com
 *.launches.appsflyer.com
 *.lgads.com
