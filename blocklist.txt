@@ -6,7 +6,7 @@
 # Blocks advertising, analytics, and tracking domains
 #
 # Format: Wildcard notation (*.domain.tld) blocks domain and all subdomains
-# Last Updated: 2026-04-24
+# Last Updated: 2026-06-30
 *.adcolony.com
 *.addthis.com
 *.adform.net
@@ -19,7 +19,6 @@
 *.ads.fotmob.com
 *.ads.linkedin.com
 *.ads.tiktok.com
-*.adservetx.media.net
 *.adservice.google.com
 *.adsrvr.org
 *.adtago.s3.amazonaws.com
@@ -36,16 +35,15 @@
 *.analyticsengine.s3.amazonaws.com
 *.api-adservices.apple.com
 *.api.ad.xiaomi.com
-*.api.bugsnag.com
 *.api2.branch.io
 *.app-measurement.com
-*.app.appsflyer.com
-*.app.bugsnag.com
 *.app.getsentry.com
+*.appsflyer.com
 *.assets.adobedtm.com
 *.attribution.report
 *.books-analytics-events.apple.com
 *.browser.sentry-cdn.com
+*.bugsnag.com
 *.business-api.tiktok.com
 *.cdn.branch.io
 *.cdn.webpushr.com
@@ -57,15 +55,14 @@
 *.criteo.com
 *.data.mistat.xiaomi.com
 *.doubleclick.net
-*.events.appsflyer.com
 *.events.hotjar.io
+*.events.reddit.com
 *.fullstory.com
 *.globalapi.ad.xiaomi.com
 *.google-analytics.com
 *.hotjar.com
 *.html-load.com
 *.iadsdk.apple.com
-*.launches.appsflyer.com
 *.lgads.com
 *.luckyorange.com
 *.measure.fotmob.com
@@ -77,11 +74,11 @@
 *.mouseflow.com
 *.nmetrics.samsung.com
 *.notes-analytics-events.apple.com
-*.notify.bugsnag.com
 *.outbrain.com
 *.pagead2.googleadservices.com
 *.pagead2.googlesyndication.com
 *.pixel.facebook.com
+*.pixel.linkedin.com
 *.pubmatic.com
 *.quantserve.com
 *.rubiconproject.com
@@ -89,17 +86,11 @@
 *.samsungads.com
 *.scorecardresearch.com
 *.sdkconfig.ad.xiaomi.com
-*.sessions.bugsnag.com
 *.sharethis.com
 *.smetrics.samsung.com
 *.static.ads-twitter.com
-*.static.media.net
-*.t.appsflyer.com
 *.taboola.com
-*.events.reddit.com
-*.pixel.linkedin.com
 *.telemetry.microsoft.com
-*.tr.iadsdk.apple.com
 *.tr.snapchat.com
 *.userdata.sr.roku.com
 *.video-ads-module.ad-tech.nbcuni.com
