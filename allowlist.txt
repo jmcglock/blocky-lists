@@ -6,7 +6,7 @@
 # Permits specified domains and all subdomains to bypass blocking rules
 #
 # Format: Wildcard notation (*.domain.tld) allows domain and all subdomains
-# Last Updated: 2026-03-07
+# Last Updated: 2026-06-30
 *.akamai.net
 *.amp-api-edge.apps.apple.com
 *.amp-api-search-edge.apps.apple.com
@@ -33,13 +33,16 @@
 *.intuit.com
 *.ipify.org
 *.megaphone.fm
+*.mgln.ai
 *.microsoft.com
 *.nbcsports.com
 *.nerdfonts.com
 *.nextdns.io
 *.oracle.com
 *.oraclecloud.com
+*.pdst.fm
 *.pinimg.com
+*.pscrb.fm
 *.rancher.io
 *.rocketaccount.com
 *.s.youtube.com
