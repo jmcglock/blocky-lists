@@ -92,6 +92,10 @@ googleadservices.com
 *.googleadservices.com
 googlesyndication.com
 *.googlesyndication.com
+googletagmanager.com
+*.googletagmanager.com
+googletagservices.com
+*.googletagservices.com
 *.hotjar.com
 *.html-load.com
 *.iadsdk.apple.com
@@ -164,5 +168,7 @@ turn.com
 *.video-ads-module.ad-tech.nbcuni.com
 *.vortex.data.microsoft.com
 *.weather-analytics-events.apple.com
+www.googletagmanager.com
+www.googletagservices.com
 yieldmo.com
 *.yieldmo.com
