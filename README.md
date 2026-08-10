@@ -8,8 +8,8 @@ Two curated lists for DNS filtering—alphabetized, deduplicated, and maintained
 
 | List        | Domains | Description                    |
 |-------------|---------|--------------------------------|
-| Allowlist   | 52      | Bypass blocking for essential services |
-| Blocklist   | 95      | Block ads, trackers, and telemetry     |
+| Allowlist   | 53      | Bypass blocking for essential services |
+| Blocklist   | 159     | Block ads, trackers, and telemetry     |
 
 ### Allowlist (`allowlist.txt`)
 Domains that bypass DNS blocking rules. Includes:
@@ -21,7 +21,7 @@ Domains that bypass DNS blocking rules. Includes:
 
 ### Blocklist (`blocklist.txt`)
 Domains blocked for privacy and performance. Targets:
-- **Ad networks**: DoubleClick, AdColony, Criteo, Outbrain, Taboola, PubMatic
+- **Ad networks**: DoubleClick, Google Ad Services, Amazon AdSystem, AdColony, Criteo, Outbrain, Taboola, PubMatic, OpenX, Teads
 - **Analytics**: Google Analytics, Hotjar, Mouseflow, Comscore, Chartbeat
 - **Telemetry**: Apple, Samsung, Xiaomi, Roku metrics
 - **Social trackers**: Facebook Pixel, TikTok/LinkedIn ads
