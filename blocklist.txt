@@ -105,6 +105,10 @@ googletagmanager.com
 googletagservices.com
 *.googletagservices.com
 *.hotjar.com
+# Ad-Shield. notateslaapp.com serves its ads from here and shows a
+# fake "ad blocker broke the site" wall when it is blocked.
+*.html-load.com
+html-load.com
 *.iadsdk.apple.com
 indexww.com
 *.indexww.com
