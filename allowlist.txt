@@ -25,7 +25,9 @@
 *.github.io
 *.gitlab.com
 *.go.com
-*.googleapis.com
+# Do not wildcard googleapis.com. HaGeZi blocks admob/googleads/adsense
+# under that zone, and a wildcard allowlist wins. YouTube and Play use
+# specific hosts that are not on the denylist, so they still resolve.
 *.graph.facebook.com
 *.graph.instagram.com
 *.i.instagram.com

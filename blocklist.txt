@@ -90,6 +90,14 @@ flashtalking.com
 *.google-analytics.com
 googleadservices.com
 *.googleadservices.com
+# AdMob / in-app ads that live on googleapis.com and are not in HaGeZi.
+# The old *.googleapis.com allowlist was hiding the ones HaGeZi does list.
+*.imasdk.googleapis.com
+*.pagead2.googleapis.com
+*.fundingchoicesmessages.googleapis.com
+*.app-measurement.googleapis.com
+*.firebaselogging.googleapis.com
+*.firebaselogging-pa.googleapis.com
 googlesyndication.com
 *.googlesyndication.com
 googletagmanager.com
