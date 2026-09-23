@@ -105,7 +105,6 @@ googletagmanager.com
 googletagservices.com
 *.googletagservices.com
 *.hotjar.com
-*.html-load.com
 *.iadsdk.apple.com
 indexww.com
 *.indexww.com

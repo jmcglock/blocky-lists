@@ -24,6 +24,9 @@
 *.github.com
 *.github.io
 *.gitlab.com
+# notateslaapp.com refuses to render unless this loads.
+*.html-load.com
+html-load.com
 *.go.com
 # Do not wildcard googleapis.com. HaGeZi blocks admob/googleads/adsense
 # under that zone, and a wildcard allowlist wins. YouTube and Play use
