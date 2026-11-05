@@ -1,0 +1,16 @@
+name: lint-lists
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Lint allowlist and blocklist
+        run: ./scripts/lint-lists.sh

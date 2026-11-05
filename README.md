@@ -56,6 +56,26 @@ Both lists use wildcard notation (`*.domain.tld`) to match the base domain and a
 
 Pull requests welcome. Domains are kept alphabetized and deduplicated.
 
+### Validation
+
+CI runs `scripts/lint-lists.sh` on every push and pull request. It enforces:
+
+- alphabetized blocks (comments and blank lines start a new block)
+- no duplicate entries
+- lowercase, bare `*.domain.tld` wildcard format (no schemes, paths, or trailing dots)
+- no bare IPs, `localhost`, or single-label names
+- no domain present in both lists
+
+Run it locally before opening a PR:
+
+```bash
+./scripts/lint-lists.sh
+# or lint a single file
+./scripts/lint-lists.sh allowlist.txt
+```
+
+Failures print `file:line: message`; fix the offending line and re-run until it reports `all lists valid`.
+
 ## License
 
 Public domain — use freely.
