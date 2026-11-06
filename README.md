@@ -76,6 +76,23 @@ Run it locally before opening a PR:
 
 Failures print `file:line: message`; fix the offending line and re-run until it reports `all lists valid`.
 
+## List freshness
+
+Domains die. `scripts/check-nxdomain.sh` resolves every entry against a neutral public resolver (`1.1.1.1`, override with `RESOLVER=`) and reports:
+
+- **NXDOMAIN** — gone for good; prune candidate
+- **NO-A-RECORD** — registered but no A record (common for ad apexes that only serve subdomains); review
+- **UNRESOLVED** — SERVFAIL/timeout; re-run before acting
+
+It deliberately bypasses the local resolver: on a network running Blocky, blocked domains answer NXDOMAIN and every blocklist entry would look dead.
+
+```bash
+./scripts/check-nxdomain.sh          # report only
+./scripts/check-nxdomain.sh --fail   # exit 1 if any NXDOMAIN
+```
+
+A weekly GitHub Actions job (`nxdomain-report.yml`) posts the report to the run summary.
+
 ## License
 
 Public domain — use freely.
