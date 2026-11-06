@@ -1,0 +1,24 @@
+name: redundancy-report
+
+on:
+  schedule:
+    - cron: "0 6 * * 3" # Wednesdays 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check for redundant list entries
+        run: |
+          {
+            echo '## Redundancy report'
+            echo
+            echo '```'
+            ./scripts/check-redundant.sh
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
