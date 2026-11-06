@@ -93,6 +93,17 @@ It deliberately bypasses the local resolver: on a network running Blocky, blocke
 
 A weekly GitHub Actions job (`nxdomain-report.yml`) posts the report to the run summary.
 
+## Redundancy
+
+`scripts/check-redundant.sh` flags entries already covered by a parent in the same list (e.g. `ads.example.com` when `*.example.com` is present). Report-only by default:
+
+```bash
+./scripts/check-redundant.sh
+./scripts/check-redundant.sh --fail   # exit 1 if any redundant entry
+```
+
+A weekly job (`redundancy-report.yml`) posts the report to the run summary.
+
 ## License
 
 Public domain — use freely.
