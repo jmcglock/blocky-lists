@@ -1,0 +1,24 @@
+name: nxdomain-report
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # Mondays 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check listed domains still resolve
+        run: |
+          {
+            echo '## List freshness report'
+            echo
+            echo '```'
+            ./scripts/check-nxdomain.sh
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
