@@ -63,3 +63,5 @@
 *.windows.com
 *.windowsupdate.com
 *.xboxlive.com
+*.opencode.ai
+opencode.ai
