@@ -8,7 +8,7 @@ Two curated lists for DNS filtering—alphabetized, deduplicated, and maintained
 
 | List        | Domains | Description                    |
 |-------------|---------|--------------------------------|
-| Allowlist   | 52      | Bypass blocking for essential services |
+| Allowlist   | 53      | Bypass blocking for essential services |
 | Blocklist   | 172     | Block ads, trackers, and telemetry     |
 
 ### Allowlist (`allowlist.txt`)
