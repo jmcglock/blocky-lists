@@ -8,9 +8,8 @@
 # Format: Wildcard notation (*.domain.tld) allows domain and all subdomains
 # Last Updated: 2026-06-30
 *.akamai.net
-*.amp-api-edge.apps.apple.com
-*.amp-api-search-edge.apps.apple.com
 *.anthropic.com
+*.apple.com
 *.braze.com
 *.claude.ai
 *.cloudflare.com
@@ -39,6 +38,8 @@
 *.nbcsports.com
 *.nerdfonts.com
 *.nextdns.io
+*.opencode.ai
+opencode.ai
 *.oracle.com
 *.oraclecloud.com
 *.pdst.fm
@@ -49,7 +50,6 @@
 *.s.youtube.com
 *.scdn.co
 *.simplelogin.io
-*.smoot.apple.com
 *.soundcloud.com
 *.spotify.com
 *.tesla.com
@@ -63,5 +63,3 @@
 *.windows.com
 *.windowsupdate.com
 *.xboxlive.com
-*.opencode.ai
-opencode.ai
