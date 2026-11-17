@@ -6,7 +6,7 @@
 # Permits specified domains and all subdomains to bypass blocking rules
 #
 # Format: Wildcard notation (*.domain.tld) allows domain and all subdomains
-# Last Updated: 2026-06-30
+# Last Updated: 2026-11-17
 *.akamai.net
 *.anthropic.com
 *.apple.com
@@ -14,7 +14,6 @@
 *.claude.ai
 *.cloudflare.com
 *.context7.com
-*.dcf.espn.com
 *.discordapp.com
 *.espn.com
 *.espncdn.com
@@ -40,7 +39,6 @@
 *.nerdfonts.com
 *.nextdns.io
 *.opencode.ai
-opencode.ai
 *.oracle.com
 *.oraclecloud.com
 *.pdst.fm
