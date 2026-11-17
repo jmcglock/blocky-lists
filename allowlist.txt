@@ -35,6 +35,7 @@
 *.ipify.org
 *.megaphone.fm
 *.mgln.ai
+*.microsoft.com
 *.nbcsports.com
 *.nerdfonts.com
 *.nextdns.io
