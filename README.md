@@ -1,10 +1,10 @@
-# Blocky Lists
+# Parapet Lists
 
-DNS allowlist and blocklist configurations for Blocky and NextDNS to manage domain filtering.
+Curated DNS blocklist and allowlist for [Parapet](https://github.com/jmcglock/parapet).
 
 ## Overview
 
-Two curated lists for DNS filtering—alphabetized, deduplicated, and maintained for Blocky/NextDNS compatibility.
+Two curated lists for DNS filtering—alphabetized, deduplicated, and one domain pattern per line, usable by any resolver that reads plain domain lists.
 
 | List        | Domains | Description                    |
 |-------------|---------|--------------------------------|
@@ -29,24 +29,18 @@ Domains blocked for privacy and performance. Targets:
 
 ## Usage
 
-### Blocky
+### Parapet
 
-Add both lists to your `config.yml`:
+Point `blocking` at the raw files. Parapet re-fetches them every `refreshInterval`
+(or immediately via **Refresh lists** in the admin UI / `POST /api/v1/lists/refresh`):
 
 ```yaml
 blocking:
-  blackLists:
-    ads:
-      - https://raw.githubusercontent.com/jmcglock/blocky-lists/main/blocklist.txt
-  whiteLists:
-    ads:
-      - https://raw.githubusercontent.com/jmcglock/blocky-lists/main/allowlist.txt
+  denylists:
+    - https://raw.githubusercontent.com/jmcglock/parapet-lists/main/blocklist.txt
+  allowlists:
+    - https://raw.githubusercontent.com/jmcglock/parapet-lists/main/allowlist.txt
 ```
-
-### NextDNS
-
-- **Denylist**: Add the blocklist URL to block ads and trackers
-- **Allowlist**: Add the allowlist URL to permit essential domains
 
 ## Format
 
@@ -84,7 +78,7 @@ Domains die. `scripts/check-nxdomain.sh` resolves every entry against a neutral 
 - **NO-A-RECORD** — registered but no A record (common for ad apexes that only serve subdomains); review
 - **UNRESOLVED** — SERVFAIL/timeout; re-run before acting
 
-It deliberately bypasses the local resolver: on a network running Blocky, blocked domains answer NXDOMAIN and every blocklist entry would look dead.
+It deliberately bypasses the local resolver: on a network running a filtering resolver, blocked domains answer NXDOMAIN and every blocklist entry would look dead.
 
 ```bash
 ./scripts/check-nxdomain.sh          # report only

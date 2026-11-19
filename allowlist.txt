@@ -2,7 +2,7 @@
 #  │                    A L L O W L I S T                          │
 #  ╰───────────────────────────────────────────────────────────────╯
 #
-# DNS Allowlist for Blocky/NextDNS
+# DNS Allowlist for Parapet
 # Permits specified domains and all subdomains to bypass blocking rules
 #
 # Format: Wildcard notation (*.domain.tld) allows domain and all subdomains

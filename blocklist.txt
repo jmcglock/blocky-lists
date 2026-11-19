@@ -2,7 +2,7 @@
 #  │                    B L O C K L I S T                          │
 #  ╰───────────────────────────────────────────────────────────────╯
 #
-# DNS Blocklist for Blocky/NextDNS
+# DNS Blocklist for Parapet
 # Blocks advertising, analytics, and tracking domains
 #
 # Format: Wildcard notation (*.domain.tld) blocks domain and all subdomains

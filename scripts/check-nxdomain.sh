@@ -10,7 +10,7 @@
 # is found, so the check can gate CI if wanted.
 #
 # Queries a neutral public resolver, NOT the local one — on a network that
-# runs Blocky, blocked domains answer NXDOMAIN and every blocklist entry
+# runs a filtering resolver, blocked domains answer NXDOMAIN and every blocklist entry
 # would look dead. Override with RESOLVER=<ip> if needed.
 
 set -uo pipefail
